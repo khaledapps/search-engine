@@ -21,7 +21,7 @@ composer require khaledapps/search-engine
 require __DIR__.'/vendor/autoload.php';
 
 // instantiation
-$searchEngine = new SearchEngine();
+$searchEngine = new Khaledapps\SearchEngine();
 
 // searching & getting results
 $results = $searchEngine->search('topic');
