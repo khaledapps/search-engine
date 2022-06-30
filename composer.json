@@ -1,0 +1,21 @@
+{
+    "name": "khaledapps/search-engine",
+    "description": "a search engine crawling tool that extracts metadata for a set of keywords.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Khaled",
+            "email": "khlddev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Khaledapps\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.2"
+    }
+}
