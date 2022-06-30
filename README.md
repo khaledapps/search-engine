@@ -89,7 +89,7 @@ You can simply use method chaining.
 ```php
 
 // using method chaining
-$searchEngine->setEngine('google.ae')
+$results = $searchEngine->setEngine('google.ae')
              ->setPagesCount(1)
              ->search(['topic A', 'topic B']);
 
